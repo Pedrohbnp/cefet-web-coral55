@@ -1,1 +1,143 @@
 @import "fonts/stylesheet.css";
+
+body{
+	margin:0;
+}
+#recipiente{
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #4599B2;
+	/*position: fixed;
+	width: 800px;
+	left:50%;
+	margin-left: -(800/2);*/
+}
+
+#cabecalho h1{
+	font-size: 36px;
+	color: #e90c0c;
+	font-family: Ravie;
+
+}
+
+#cabecalho h2{
+	font-size: 24px;
+	color: #333;
+	font-family: Trebuchet MS;
+	text-align: right;
+}
+
+#cabecalho strong{
+	color: #d027aa;
+}
+
+#cabecalho{
+	position: absolute; 
+	right: 0px;
+	top:0px;
+	clear:both;
+	line-height: 15px;
+	margin-top: 15px;
+	margin-right: 40px;
+}
+
+#conteudo{
+	font-family: Verdana;
+	font-size: 14px;
+	color: #333;
+}
+
+#lateral{
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding-top: 7px;
+	
+	width: 154px;
+}
+
+#lateral h2{
+	position: absolute;
+	top:354px;
+	left:0px;
+	right:20px;
+	margin:0px;
+	transform: rotateZ(270deg);
+	font-size: 48px;
+	font-style: bold;
+	color: #333;
+}
+
+#siri{
+	position:absolute;
+	left:-10px;
+}
+
+#bolha{
+	position:absolute;
+	top:450px;
+	left:;
+}
+#peixe{
+	position: absolute;
+	top: 689px;
+}
+
+#cardapio{
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aac0ae;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 40px;
+	padding-top: 0px; 
+	width: 616px;
+	float:right;
+	margin-top:102px;
+	/*position:absolute;
+	right:0px;
+	top:150px;*/
+	box-sizing: border-box;
+	line-height: 30px;
+}
+
+#cardapio h3{
+	font-size: 18px;
+	font-style: bold;
+	margin-top:10px;
+	margin-bottom:0px
+}
+
+#cardapio h3~h3{
+	margin-top: 30px;
+}
+
+#rodape{
+	/*position:absolute;
+	bottom:0px;
+	right: 0px;*/
+	clear:both;
+	padding-top: 46px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+	text-align: right;
+}
+
+#price{
+	float:right;
+}
+
+#ticket{
+	position:fixed;
+	top:50%;
+	left:0%;
+}
+
+#ticket:hover {
+    left: 0px;   
+}
+
+
